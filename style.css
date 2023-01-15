@@ -23,31 +23,47 @@ h2 {
     text-align: center;
 }
 
-#points {
-    height: 16%;
-    max-width: 100%;
-    font-family: Dekiru;
-    color: white;
+#container{
     text-align: center;
-    font-size: 6vw;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+#points {
+    padding: 3.2vh;
+    height: 8vh;
+    font-family: Dekiru;
+    background-color: blanchedalmond;
+    color: darkcyan;
+    font-size: 6vw;
+    border-radius: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    text-align: center;
+}
+
 
 #increment{
     background-color: transparent;
     border: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 #pint{
     height: 41vh;
     background: transparent;
-    align-items: center;
 }
 
 .button:hover{
     cursor: pointer;
 }
 
-/* Adding a breakpoint for smaller screens*/
+
 @media (max-width: 428px) {
     h1 {
         font-size: 3vw;
@@ -64,7 +80,7 @@ h2 {
 
 }
 
-/* Adding a breakpoint for medium screens */
+
 @media (min-width: 429px) and (max-width: 600px) {
     h1 {
         font-size: 3vw;
@@ -81,3 +97,19 @@ h2 {
 
 }
 
+
+@media (min-width: 601px) {
+    h1 {
+        font-size: 3vw;
+        margin: 3%;
+    }
+    h2 {
+        font-size: 1.6vw;
+        margin: 3%;
+    }
+    #points {
+        font-size: 6vw;
+        margin: 3%;
+    }
+
+}
