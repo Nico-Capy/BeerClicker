@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Dekiru';
+    src: url(Dekiru.ttf) format('truetype');
+}
+
+body{
+    background-color: darkcyan;
+}
+
+h1 {
+    margin: 3%;
+    color: blanchedalmond;
+    font-family: Dekiru;
+    font-size: 3vw;
+    text-align: center;
+}
+
+h2 {
+    margin: 3%;
+    font-family: Dekiru;
+    font-size: 1.6vw;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+#points {
+    height: 16%;
+    max-width: 100%;
+    font-family: Dekiru;
+    color: white;
+    text-align: center;
+    font-size: 6vw;
+}
+
+#increment{
+    background-color: transparent;
+    border: none;
+}
+
+#pint{
+    height: 41vh;
+    background: transparent;
+    align-items: center;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+/* Adding a breakpoint for smaller screens*/
+@media (max-width: 428px) {
+    h1 {
+        font-size: 3vw;
+        margin: 1%;
+    }
+    h2 {
+        font-size: 1.6vw;
+        margin: 1%;
+    }
+    #points {
+        font-size: 4vw;
+        margin: 1%;
+    }
+
+}
+
+/* Adding a breakpoint for medium screens */
+@media (min-width: 429px) and (max-width: 600px) {
+    h1 {
+        font-size: 3vw;
+        margin: 2%;
+    }
+    h2 {
+        font-size: 1.6vw;
+        margin: 2%;
+    }
+    #points {
+        font-size: 6vw;
+        margin: 2%;
+    }
+
+}
+
