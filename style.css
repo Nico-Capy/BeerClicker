@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: darkcyan;
+    background-color:cornflowerblue;
 }
 
 h1 {
@@ -31,16 +31,16 @@ h2 {
 
 #points {
     padding: 3.2vh;
-    height: 8vh;
+    height: 12vw;
     font-family: Dekiru;
     background-color: blanchedalmond;
     color: darkcyan;
     font-size: 6vw;
-    border-radius: 2rem;
+    border-radius: 8rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 50%;
+    width: 12vh;
     text-align: center;
 }
 
